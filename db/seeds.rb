@@ -1,2 +1,2 @@
-Book.seed
-Category.seed
+Seeders::Books.seed
+Seeders::Categories.seed

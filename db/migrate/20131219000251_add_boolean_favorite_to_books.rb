@@ -1,9 +1,9 @@
 class AddBooleanFavoriteToBooks < ActiveRecord::Migration
   def up
-    add_column :books, :rating, :boolean
+    add_column :books, :favorite, :boolean
   end
 
   def down
-    remove_column :books, :rating, :boolean
+    remove_column :books, :favorite, :boolean
   end
 end

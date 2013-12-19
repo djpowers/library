@@ -1,1 +1,2 @@
 Book.seed
+Category.seed
